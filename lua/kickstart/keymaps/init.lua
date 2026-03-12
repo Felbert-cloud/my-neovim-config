@@ -1,10 +1,14 @@
 -- Exit insert mode using jk or kj
 vim.keymap.set('i', 'jk', '<Esc>', { desc = 'Exit insert mode' })
 vim.keymap.set('i', 'kj', '<Esc>', { desc = 'Exit insert mode' })
+vim.keymap.set('i', 'JK', '<Esc>', { desc = 'Exit insert mode' })
+vim.keymap.set('i', 'JK', '<Esc>', { desc = 'Exit insert mode' })
 
 -- Exit terminal mode using jk or kj
 vim.keymap.set('t', 'jk', [[<C-\><C-n>]], { desc = 'Exit terminal mode' })
 vim.keymap.set('t', 'kj', [[<C-\><C-n>]], { desc = 'Exit terminal mode' })
+vim.keymap.set('t', 'JK', [[<C-\><C-n>]], { desc = 'Exit terminal mode' })
+vim.keymap.set('t', 'KJ', [[<C-\><C-n>]], { desc = 'Exit terminal mode' })
 
 -- Quit Neovim with <leader>q
 vim.keymap.set('n', '<leader>q', '<cmd>q<CR>', { desc = 'Quit Neovim' })
